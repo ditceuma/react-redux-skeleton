@@ -36,7 +36,7 @@ const Home = () => {
 
     return (
         <Container>
-            <HeaderTitle title="Página Principal, Seja Bem Vindo." />
+            <HeaderTitle title="Página Principal, Seja Bem Vindo ao ESQUELETO." />
             <Segment textAlign="center">
                 <Card.Group itemsPerRow={4}>
                     {card}
