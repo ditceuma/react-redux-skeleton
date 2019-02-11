@@ -1,8 +1,53 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React with Redux Skeleton
 
-## Available Scripts
+```react-redux-eskeleton``` é um esqueleto com uma estrutura de diretórios pré-configurada para criação/inicialização de projetos web.
 
-In the project directory, you can run:
+*This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).*
+
+## Estrutura de diretórios
+
+A estrutura de diretórios deste Skeleton, segue o seguinte padrão:
+
+```
+react-redux-skeleton
+├── package.json
+├── package-lock.json
+├── public
+│   ├── assets
+│   ├── favicon.ico
+│   ├── index.html
+│   └── manifest.json
+├── README.md
+├── src
+│   ├── actions
+│   ├── App.css
+│   ├── App.js
+│   ├── components
+│   ├── index.css
+│   ├── index.js
+│   ├── logo.svg
+│   ├── reducers
+│   ├── routes.js
+│   ├── serviceWorker.js
+│   ├── setupTests.js
+│   ├── shared
+│   └── __tests__
+└── yarn.lock
+```
+
+Dentro de `src` os diretórios possuem as seguintes definições:
+
+- **actions**: a pasta actions contém todas as ações da sua aplicação, e elas podem ser separadas baseadas - nas rotas que você usa, ou até mesmo por responsabilidades que suas ações terão.
+- **components**: mantém os arquivos de componentes da aplicação.
+- **reducers**: contém as edfinições de estado que serão utilizados dentro da aplicação.
+- **shared**: dentro da pasta shared, teremos tudo que for compartilhado por vários pontos da aplicação.
+- **__tests__**: diretório que contém a estrutura de testes.
+
+## Como inicializar o projeto
+
+### `npm install`
+
+Execute este comando para instalar as dependências.
 
 ### `npm start`
 
@@ -37,32 +82,4 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+-------------------------------------------------
